@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="config: starting project with ini dir">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/routes/trip_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="config: adding firts test route to project">
+      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/repositories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/repositories/trips_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/repositories/trips_repository_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/settings/db_connection_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2j1YVds7SyK2EjqtXTsddYQDqOh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,16 +42,76 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for repositories.trips_repository_test.test_create_trip.executor": "Run",
+    "Python tests.Python tests for repositories.trips_repository_test.test_find_trip_by_id.executor": "Run",
+    "Python tests.Python tests in trips_repository_test.py.executor": "Run",
     "Python.run.executor": "Run",
+    "Python.trips_repository.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ravel\PycharmProjects\NLW_JOURNEY\src" />
       <recent name="C:\Users\ravel\PycharmProjects\NLW_JOURNEY\src\main" />
       <recent name="C:\Users\ravel\PycharmProjects\NLW_JOURNEY" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for repositories.trips_repository_test.test_create_trip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="NLW_JOURNEY" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;repositories.trips_repository_test.test_create_trip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for repositories.trips_repository_test.test_find_trip_by_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="NLW_JOURNEY" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;repositories.trips_repository_test.test_find_trip_by_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in trips_repository_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="NLW_JOURNEY" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/models/repositories/trips_repository_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for repositories.trips_repository_test.test_find_trip_by_id" />
+        <item itemvalue="Python tests.Python tests for repositories.trips_repository_test.test_create_trip" />
+        <item itemvalue="Python tests.Python tests in trips_repository_test.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -80,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720557203527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="config: adding firts test route to project">
+      <option name="closed" value="true" />
+      <created>1720558746654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720558746654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="config: starting project with ini dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="config: starting project with ini dir" />
+    <MESSAGE value="config: adding firts test route to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="config: adding firts test route to project" />
   </component>
 </project>

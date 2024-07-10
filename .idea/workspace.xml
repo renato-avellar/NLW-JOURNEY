@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementing emails repository" />
+    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementing emails repository">
+      <change afterPath="$PROJECT_DIR$/src/models/repositories/links_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/repositories/links_repository_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/storage.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +42,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python tests.Python tests for repositories.emails_to_invite_repository_test.test_find_trip_by_id.executor": "Run",
     "Python tests.Python tests for repositories.emails_to_invite_repository_test.test_registry_email.executor": "Run",
+    "Python tests.Python tests for repositories.links_repository_test.test_find_links_by_trip.executor": "Debug",
+    "Python tests.Python tests for repositories.links_repository_test.test_registry_link.executor": "Run",
     "Python tests.Python tests for repositories.trips_repository_test.test_create_trip.executor": "Run",
     "Python tests.Python tests for repositories.trips_repository_test.test_find_trip_by_id.executor": "Run",
     "Python tests.Python tests in emails_to_invite_repository_test.py.executor": "Run",
@@ -89,7 +97,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for repositories.trips_repository_test.test_create_trip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for repositories.links_repository_test.test_find_links_by_trip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="NLW_JOURNEY" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +108,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;repositories.trips_repository_test.test_create_trip&quot;" />
+      <option name="_new_target" value="&quot;repositories.links_repository_test.test_find_links_by_trip&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for repositories.links_repository_test.test_registry_link" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="NLW_JOURNEY" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;repositories.links_repository_test.test_registry_link&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -119,28 +142,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in trips_repository_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="NLW_JOURNEY" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/models/repositories/trips_repository_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for repositories.links_repository_test.test_find_links_by_trip" />
+        <item itemvalue="Python tests.Python tests for repositories.links_repository_test.test_registry_link" />
         <item itemvalue="Python tests.Python tests for repositories.emails_to_invite_repository_test.test_find_trip_by_id" />
         <item itemvalue="Python tests.Python tests for repositories.emails_to_invite_repository_test.test_registry_email" />
         <item itemvalue="Python tests.Python tests for repositories.trips_repository_test.test_find_trip_by_id" />
-        <item itemvalue="Python tests.Python tests for repositories.trips_repository_test.test_create_trip" />
-        <item itemvalue="Python tests.Python tests in trips_repository_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -213,5 +221,16 @@
     <MESSAGE value="feat: implementing db connection with repository" />
     <MESSAGE value="feat: implementing emails repository" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: implementing emails repository" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/models/repositories/links_repository_test.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

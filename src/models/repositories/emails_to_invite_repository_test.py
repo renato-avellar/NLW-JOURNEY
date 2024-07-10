@@ -24,7 +24,7 @@ def test_registry_email():
 def test_find_trip_by_id():
     conn = db_connection_handler.get_connection()
     email_repository = EmailsToInviteRepository(conn)
-    emails = email_repository.find_emails_from_trip("86a12b19-0618-47c5-afd2-7796e19c964f")
+    emails = email_repository.find_emails_from_trip(trip_id)
     print()
     print(emails)
 

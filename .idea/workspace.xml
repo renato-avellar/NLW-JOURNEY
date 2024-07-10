@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementing emails repository">
-      <change afterPath="$PROJECT_DIR$/src/models/repositories/links_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repositories/links_repository_test.py" afterDir="false" />
+    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementig links repository">
+      <change afterPath="$PROJECT_DIR$/src/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/link_creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/trip_confirm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/trip_creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/trip_finder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/trip_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/trip_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/storage.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/repositories/links_repository_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/links_repository_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/storage.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +55,15 @@
     "Python tests.Python tests for repositories.trips_repository_test.test_find_trip_by_id.executor": "Run",
     "Python tests.Python tests in emails_to_invite_repository_test.py.executor": "Run",
     "Python tests.Python tests in trips_repository_test.py.executor": "Run",
+    "Python.link_creator.executor": "Run",
     "Python.run.executor": "Run",
+    "Python.trip_finder.executor": "Run",
+    "Python.trip_routes.executor": "Run",
     "Python.trips_repository.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/ravel/PycharmProjects/NLW_JOURNEY/src/models/repositories",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -200,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720570375635</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: implementig links repository">
+      <option name="closed" value="true" />
+      <created>1720574166979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720574166979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +238,8 @@
     <MESSAGE value="config: adding firts test route to project" />
     <MESSAGE value="feat: implementing db connection with repository" />
     <MESSAGE value="feat: implementing emails repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementing emails repository" />
+    <MESSAGE value="feat: implementig links repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementig links repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

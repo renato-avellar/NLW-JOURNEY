@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementig links repository">
-      <change afterPath="$PROJECT_DIR$/src/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/link_creator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/trip_confirm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/trip_creator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/trip_finder.py" afterDir="false" />
+    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementing controller from trips">
+      <change afterPath="$PROJECT_DIR$/src/controllers/link_finder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/routes/trip_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/trip_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/repositories/links_repository_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/links_repository_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/storage.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720574166979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: implementing controller from trips">
+      <option name="closed" value="true" />
+      <created>1720634466189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720634466189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +238,8 @@
     <MESSAGE value="feat: implementing db connection with repository" />
     <MESSAGE value="feat: implementing emails repository" />
     <MESSAGE value="feat: implementig links repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementig links repository" />
+    <MESSAGE value="feat: implementing controller from trips" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementing controller from trips" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

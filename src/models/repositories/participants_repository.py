@@ -10,7 +10,7 @@ class ParticipantsRepository:
         cursor = self.__conn.cursor()
         cursor.execute(
             '''
-                INSERT INTO participantes
+                INSERT INTO participants
                     (id, trip_id, emails_to_invite_id, name)
                 VALUES
                     (?, ?, ?, ?)
@@ -22,14 +22,14 @@ class ParticipantsRepository:
         )
         self.__conn.commit()
 
-    def find_participants_from_trio(self, trip_id: str) -> List[Tuple]:
+    def find_participants_from_trip(self, trip_id: str) -> List[Tuple]:
         cursor = self.__conn.cursor()
         cursor.execute(
             '''
                 SELECT
-                    p.Id, p.name, p.is_confirmed, e.email
+                    p.id, p.name, p.is_confirmed, e.email
                 FROM participants as p
-                JOIN emails_to_invite as e ON e.id = p.emails_to_invite.id
+                JOIN emails_to_invite as e ON e.id = p.emails_to_invite_id
                 WHERE
                     p.trip_id = ?
             ''', (trip_id,)

@@ -14,11 +14,11 @@ def test_create_trip():
 
     trips_infos = {
         "id": trip_id,
-        "destination": "Osasco",
+        "destination": "PQP",
         "start_date": datetime.strptime("02-01-2024", "%d-%m-%Y"),
         "end_date": datetime.strptime("02-01-2024", "%d-%m-%Y") + timedelta(days=5),
-        "owner_name": "Oswaldo",
-        "owner_email": "oswaldo@email.com"
+        "owner_name": "Jaozin",
+        "owner_email": "jaozin@email.com"
     }
 
     trips_repository.create_trip(trips_infos)

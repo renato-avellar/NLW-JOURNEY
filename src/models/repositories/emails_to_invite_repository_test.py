@@ -15,7 +15,7 @@ def test_registry_email():
     emails_infos = {
         "id": email_id,
         "trip_id": trip_id,
-        "email": "oswaldo@email.com"
+        "email": "jaozin@email.com"
     }
 
     email_repository.registry_email(emails_infos)

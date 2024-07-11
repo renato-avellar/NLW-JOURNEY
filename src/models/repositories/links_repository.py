@@ -1,5 +1,7 @@
 from sqlite3 import Connection
 from typing import Tuple, List
+
+
 class LinksRepository:
     def __init__(self, conn: Connection) -> None:
         self.__conn = conn
@@ -12,7 +14,7 @@ class LinksRepository:
                     (id, trip_id, link, title)
                 VALUES
                     (?,?,?,?)
-            ''',(
+            ''', (
                 link_infos["id"],
                 link_infos["trip_id"],
                 link_infos["link"],

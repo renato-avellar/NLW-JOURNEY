@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementing activities e participants repositort">
-      <change afterPath="$PROJECT_DIR$/src/controllers/activity_creator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/activity_finder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/participant_confirm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/participant_creator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/participant_finder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repositories/activities_repository_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repositories/participants_repository_test.py" afterDir="false" />
+    <list default="true" id="25b4b7ab-0bdc-4ec0-86cd-0560e431c3a3" name="Changes" comment="feat: implementing activities e participants controllers">
+      <change afterPath="$PROJECT_DIR$/create_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drivers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/drivers/email_sender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/trip_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/trip_routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/repositories/activities_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/activities_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/emails_to_invite_repository_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/repositories/links_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/links_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/repositories/participants_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/participants_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/repositories/trips_repository_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repositories/trips_repository_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/storage.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/storage.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +54,7 @@
     "Python tests.Python tests in emails_to_invite_repository_test.py.executor": "Run",
     "Python tests.Python tests in participants_repository_test.py.executor": "Run",
     "Python tests.Python tests in trips_repository_test.py.executor": "Run",
+    "Python.create_email.executor": "Run",
     "Python.link_creator.executor": "Run",
     "Python.participant_creator.executor": "Debug",
     "Python.participants_repository.executor": "Run",
@@ -90,7 +79,7 @@
       <recent name="C:\Users\ravel\PycharmProjects\NLW_JOURNEY" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NLW_JOURNEY" />
       <option name="ENV_FILES" value="" />
@@ -263,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720656718230</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: implementing activities e participants controllers">
+      <option name="closed" value="true" />
+      <created>1720733774367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720733774367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +284,8 @@
     <MESSAGE value="feat: implementing controller from trips" />
     <MESSAGE value="feat: implementing link finder" />
     <MESSAGE value="feat: implementing activities e participants repositort" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementing activities e participants repositort" />
+    <MESSAGE value="feat: implementing activities e participants controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementing activities e participants controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
